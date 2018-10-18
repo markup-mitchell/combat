@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/spitchell/combat#readme",
   "devDependencies": {
-    "gh-pages-cli": "^0.2.0",
+    "gh-pages": "^2.0.1",
     "parcel-bundler": "^1.10.3"
-  }
+  },
+  "dependencies": {}
 }
