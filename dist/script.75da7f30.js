@@ -315,7 +315,7 @@ var controller = {
     var outcome = attack >= defend ? 1 : 0;
     defender.health -= outcome;
     view.renderPlayer(defender);
-    view.broadcast("\n      <p class=\"fade-off\">\n        ".concat(attacker.name, " attacks (").concat(attack, ") - ").concat(defender.name, " defends (").concat(defend, ")\n      </p>   \n        ").concat(messages[outcome], "\n    "));
+    view.broadcast("\n      <p class=\"fade-off\">\n        ".concat(attacker.name, " attacks (").concat(attack, ") - ").concat(defender.name, " defends (").concat(defend, ")\n      </p>\n        ").concat(messages[outcome], "\n    "));
     this.nextFighter();
     this.update();
   },

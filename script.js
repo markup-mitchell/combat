@@ -73,7 +73,7 @@ const controller = {
     view.broadcast(`
       <p class="fade-off">
         ${attacker.name} attacks (${attack}) - ${defender.name} defends (${defend})
-      </p>   
+      </p>
         ${messages[outcome]}
     `);
     this.nextFighter();
