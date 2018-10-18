@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .container {
     width: 100vw;
     height: 100vh;
@@ -30,4 +34,11 @@
   animation-delay: 1s;
   animation-duration: 1s;
   animation-fill-mode: forwards;
+}
+
+.messageBoard {
+  position: absolute;
+  left: 40%;
+  top: 45%;
+  /* background: #bada55; */
 }
