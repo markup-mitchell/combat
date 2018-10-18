@@ -263,7 +263,6 @@ function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 var model = {
-  turn: 0,
   fighters: []
 };
 var view = {
@@ -329,7 +328,7 @@ var controller = {
   update: function update() {
     model.fighters.forEach(function (fighter) {
       if (fighter.health === 0) {
-        view.broadcast("\n          <h2>\n            ".concat(fighter.name, " IS DEAD! GAME OVER\n          </h2>\n          <button onclick=\"location.reload()\">reset</button>\n        "));
+        view.broadcast("\n          <h2>\n            ".concat(fighter.name, " IS DEAD! </br> GAME OVER\n          </h2>\n          <button onclick=\"location.reload()\">reset</button>\n        "));
       }
 
       ;

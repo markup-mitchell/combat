@@ -4,7 +4,6 @@ import GetStats from "./getStats";
 import rollDice from "./dice";
 
 const model = {
-  turn: 0,
   fighters: [],
 }
 
@@ -91,7 +90,7 @@ const controller = {
       if (fighter.health === 0) {
         view.broadcast(`
           <h2>
-            ${fighter.name} IS DEAD! GAME OVER
+            ${fighter.name} IS DEAD! </br> GAME OVER
           </h2>
           <button onclick="location.reload()">reset</button>
         `);
