@@ -30,7 +30,7 @@ body {
   }
 }
 .fade-off {
-  animation-name: "fade-off";
+  animation-name: fade-off;
   animation-delay: 1s;
   animation-duration: 1s;
   animation-fill-mode: forwards;
